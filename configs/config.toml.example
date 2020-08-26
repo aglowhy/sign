@@ -1,0 +1,44 @@
+# 运行模式(debug:调试,test:测试,release:正式)
+run_mode = "debug"
+
+# redis配置
+[redis]
+# 地址
+addr = "127.0.0.1"
+# 端口
+port = 6379
+# 密码
+password = ""
+
+# 日志配置
+[log]
+# 日志级别(1:fatal 2:error,3:warn,4:info,5:debug)
+level = 5
+# 日志格式（支持输出格式：text/json）
+format = "text"
+# 日志输出(支持：stdout/stderr/file)
+output = "file"
+# 指定日志输出的文件路径
+output_file = "data/logs/sign.log"
+
+[email]
+# 发件服务器
+host = "smtp.163.com"
+# 端口
+port = 25
+# 用户
+username = ""
+# 密码
+password = ""
+# 收件人
+receiver = ""
+
+[server_chan]
+# 推送地址
+url = ""
+
+[guilinlife]
+# 用户名
+username = ""
+# 密码
+password = ""

@@ -1,0 +1,7 @@
+.idea
+.vscode
+
+/cmd/server/server
+/configs/config.toml
+/data
+/release
